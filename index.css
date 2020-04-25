@@ -1,21 +1,21 @@
 body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 100%;
-    background-color: white;
-    width: 600px;
+    background-color: rgb(34, 196, 236);
+    width: 1000px;
     margin: 0 auto;
     border: 3px solid blue;
     padding: 1em;
 }
 h2 {
-    color: blue;
+    color: rgb(9, 9, 71);
     margin: 0;
     padding: 0 0 0.5em 0;
-    text-align: center;
+    text-align: start;
 }
 
 p {
     margin: 0;
     padding: .5em;
-    text-align: center;	
+    text-align: center ;	
 }
