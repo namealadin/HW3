@@ -2,31 +2,39 @@ body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 100%;
     background-color: rgb(34, 196, 236);
-    width: 700px;
+    width: 760px;
     margin: 0 auto;
     padding: 40px;
 }
-/* h2 {
+h2 {
     color: rgb(9, 9, 71);
     margin: 0;
     padding: 0 0 0.5em 0;
     text-align: start;
-} */
+}
 
 
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: #2196F3;
-    padding: 10px;
+    padding: 8px;
   }
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     /* width: 280px;
     height: 200px; */
-    padding: 48px;
-    margin: 0 auto;
+    padding: 25px;
     font-size: 12px;
     text-align: left;
+  }
+  .griditem2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    /* width: 280px;
+    height: 200px; */
+    padding: 30px;
+    font-size: 12px;
+    text-align: start;
   }
