@@ -2,20 +2,31 @@ body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 100%;
     background-color: rgb(34, 196, 236);
-    width: 1000px;
+    width: 700px;
     margin: 0 auto;
-    border: 3px solid blue;
-    padding: 1em;
+    padding: 40px;
 }
-h2 {
+/* h2 {
     color: rgb(9, 9, 71);
     margin: 0;
     padding: 0 0 0.5em 0;
     text-align: start;
-}
+} */
 
-p {
-    margin: 0;
-    padding: .5em;
-    text-align: center ;	
-}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    /* width: 280px;
+    height: 200px; */
+    padding: 48px;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: left;
+  }

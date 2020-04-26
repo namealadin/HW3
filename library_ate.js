@@ -1,4 +1,10 @@
-let Ate = function (fnameP, caloriesP, howmanyP) {
+let newFoodItem = new FoodItem(
+    document.getElementById("fname").value,
+    document.getElementById("calories").value,
+    document.getElementById("howmany").value,
+);
+
+let FoodItem = function (fnameP, caloriesP, howmanyP) {
     this.fname = fnameP;
     this.calories = caloriesP;
     this.howmany = howmanyP;

@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <head>
     <title>Calorie counter!</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
 
-    <script src="library_ate.js"></script>"
+    <script src="library_ate.js"></script>
     <script src="main.js"></script>
 </head>
 <body>
     <main>
-        <h2>Enter data for what you ate:</h2>
-        <label for="fname">Name of food:</label>
-        <input type="text" id="fname"><br />
-        <label for="calories">Calories:</label>
-        <input type="text" id="calories"><br />
-        <label for="howmany">How many did you eat:</label>
-        <input type="text" id="howmany"><br />
+        <div class="grid-container">
+            <div class="grid-item">
+                <h2>Enter data for what you ate:</h2>
+                <label for="fname">Name of food:</label>
+                <input type="text" id="fname"><br />
+                <label for="calories">Calories:</label>
+                <input type="text" id="calories"><br />
+                <label for="howmany">How many did you eat:</label>
+                <input type="text" id="howmany"><br />
 
-        <input type="button" id="add"
-            value="Click to Add to Your Total"><br /><br />
-        <input type="button" id="clear" value="Clear">
-        
-        <br />
-        <ul id="lists">
-            <li>Food -- Calories -- Quantity</li>
-        </ul>
+                <input type="button" id="add"
+                    value="Click to Add to Your Total"><br /><br />
+                <input type="button" id="clear" value="Clear">
+            </div>
+            <div class="grid-item">
+                <br />
+                <ul id="lists">
+                    <li>Food -- Calories -- Quantity</li>
+                </ul>
+            </div>
+        </div>
     </main>
 </body>
