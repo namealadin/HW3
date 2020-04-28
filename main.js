@@ -7,8 +7,16 @@ document.addEventListener("DOMContentLoaded", function (event) {
         );
                 
         if(newFoodItem.isValid()) {
-            foodList[foodList.length] = FoodItem;
+            foodList[foodList.length] = newFoodItem;
             clear(); 
+        }
+        // for (i=0; i< foodList.length; i++){
+        //     let 
+        // }
+        for (i = 0; i < foodList.length; i++) { 
+              let node = document.createElement("li"); 
+              node.innerHTML = foodList[i].fname + ", " + foodList[i].calories + ", " + foodList[i].howmany
+              document.getElementById("lists").appendChild(node);
         }
     });
         
@@ -22,13 +30,13 @@ document.addEventListener("DOMContentLoaded", function (event) {
         document.getElementById("fname").focus();
     }
 
-    document.getElementById("add").addEventListener("click", function () {
-            for (i = 0; i < foodList.length; i++) { 
-                let node = document.createElement("li"); 
-                node.innerHTML = foodList[i].fname + ", " + foodList[i].calories + ", " + foodList[i].howmany 
-                document.getElementById("lists").appendChild(node);
-            }
-        })
+    // document.getElementById("add").addEventListener("click", function () {
+    //         for (i = 0; i < foodList.length; i++) { 
+    //             let node = document.createElement("li"); 
+    //             node.innerHTML = foodList[i].fname + ", " + foodList[i].calories + ", " + foodList[i].howmany
+    //             document.getElementById("lists").appendChild(node);
+    //         }
+    //     })
 
     let foodList = [];
     
