@@ -8,8 +8,17 @@ document.addEventListener("DOMContentLoaded", function (event) {
                 
         if(newFoodItem.isValid()) {
             foodList[foodList.length] = newFoodItem;
-            clear(); 
+            clear();
+            // let total = document.createElement("li");
+            // total.innerHtml = "You have consumed"+ foodList.calories * foodList.howmany + "calories"
+            // document.getElementById("Total").appendChild(total);
         }
+        // } else {
+        //     total.innerHTML = "invalid input"
+        //     document.getElementById("Total").appendChild(total);
+
+        // }
+        
         // for (i=0; i< foodList.length; i++){
         //     let 
         // }
